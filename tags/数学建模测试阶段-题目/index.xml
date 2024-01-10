@@ -1,0 +1,96 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>数学建模测试阶段-题目 - 标签 - Gezellig</title>
+    <link>https://hchenua.github.io/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5-%E9%A2%98%E7%9B%AE/</link>
+    <description>数学建模测试阶段-题目 - 标签 - Gezellig</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</lastBuildDate><atom:link href="https://hchenua.github.io/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5-%E9%A2%98%E7%9B%AE/" rel="self" type="application/rss+xml" /><item>
+  <title>第二十题</title>
+  <link>https://hchenua.github.io/posts/int-20/</link>
+  <pubDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/posts/int-20/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>一辆匀速向前运动的火车(火车有些老旧)，所以车厢顶部有一颗螺丝，看上去摇摇欲坠，马上就要落下来。</p>
+<ul>
+<li>这辆火车正在向前高速运动，速度是均匀的，便形成了一个惯性系</li>
+</ul>
+<p>而正下方刚好有一个人，把他叫做A，此人正在极度无聊之中于是掏出了一块秒表，决定给这颗螺丝吊在地板上记个时。因为车厢正好高两米，重力加速度又是个常量，所以螺丝落地的时间是 0.64 秒，而他计的时也正好就是这个数字。<br>
+现在我们假设，正好在螺丝下落的时候，火车外也站了一个人，把叫他b，也就是这么巧，他也拿了一块秒表进行了计时，他所记录的时间也是 0.64 秒。<br>
+但老师尝试对这题进行了另一种假设，将问题中从车厢顶部掉下来的螺丝钉改成射下了一束光(遵循：光速不变定理)<br>
+。。。<br>
+老师终于做完了改后的题，但电脑突然蓝屏了。<br>
+图纸丢失了，过程也出现了两处的乱码。</p>
+<p>过程如下：<br>
+∆t 表示A的计时，同理 ∆t&rsquo; 表示B的计时，C 表示光的速度，v 表示火车速度</p>
+<p></p>
+<font color=#F0F8FF size=3 face="宋体">
+$
+(C∆t')^2 - (v∆t')^2 = (v∆t)^2 \\\\
+∆t'^2(C^2-v^2)=C^2∆t^2 \\\\
+\frac{∆t'^2(C^2-v^2)}{(C^2-v^2)} = \frac{C^2∆t^2}{(C^2-v^2)} \\\\
+∆t'^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\\\
+∆t'^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\\\
+$
+</font> 
+<p></p>
+<hr>
+<h5 id="要求">要求：</h5>
+<p>请复原（画出符合题目的简单图像、写出完整过程）</p>]]></description>
+</item>
+<item>
+  <title>第十九题</title>
+  <link>https://hchenua.github.io/posts/int-19/</link>
+  <pubDate>Mon, 12 Jun 2023 20:44:33 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/posts/int-19/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>有一天你在睡梦中梦见自己穿越到了西周时期，遇见了周公旦。他问你：“这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”<br>
+你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。<br>
+突然讲得兴奋了起来开始向周公旦讲解这些数的关联证明方法 ———— 勾股定理<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<hr>
+<p>你拿出了四个一样相同大小的直角三角形。<br>
+</p>
+<hr>
+<h5 id="问题">问题：</h5>
+<p>后面你是怎么证明的呢？(请写出你的推导过程)<br>
+这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）</p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十八题</title>
+  <link>https://hchenua.github.io/posts/int-18/</link>
+  <pubDate>Thu, 01 Jun 2023 19:15:39 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/posts/int-18/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>一个摆渡人希望用一条小船把一只狼、一头羊和一篮白菜从一条河的左岸运到右岸去，而船上一次只能容纳人、狼、羊、菜中的两个，绝不能在无人看守的情况下留下狼和羊在一起，也不允许羊和菜在一起，应怎样渡河才能将狼、羊、菜都运过去？</p>]]></description>
+</item>
+<item>
+  <title>第十五题</title>
+  <link>https://hchenua.github.io/posts/int-15/</link>
+  <pubDate>Fri, 27 Jan 2023 18:06:42 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/posts/int-15/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>用圆规画一个半径是 1 的正圆，在它的外边画一个外切正方形，所以它(正方形)的边长一定等于 1 ，因为它有四条边所以周长等于 4 。然后在正方形的四个角上再切掉四个小(大小一样)的正方形，继续在每个缺口的两个顶点处，再切掉两个更小(大小一样)的正方形，但由于我们是切的正方形的口子，剩余的边长与原边长保持不变，所以周长还是 4 。按这个情况继续切，一直切出无穷多个正方形的小缺口。当切出无数次之后，原来得到外切正方形就会越来越贴近这个直径为 1 的圆，而周长会保持原正方形的周长不变。所以现在就得到了一个周长为 4 、直接为 1 的正圆。<br>
+</p>
+<p>但当我们算一下圆周率时候： π = 4 ÷ 1 = 4</p>
+<p>请解释为什么会出现这个情况？</p>]]></description>
+</item>
+<item>
+  <title>第十三题</title>
+  <link>https://hchenua.github.io/posts/int-13/</link>
+  <pubDate>Wed, 03 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/posts/int-13/</guid>
+  <description><![CDATA[<hr>
+<h5 id="问题">问题：</h5>
+<p>原子弹引爆会产生多大的热量，现在你手中有一个土豆 <em>（土豆不可离开手之外其它地方）</em>。现在请给出一个方法：让原子弹爆炸产生的热量让土豆烤熟，但同时也不能让原子弹伤到自己。</p>
+<blockquote>
+<p>土豆也不一定非要全熟，如果能做到更好，但必须确保自身安全。</p>
+</blockquote>
+<p><em><strong>需要？操作？步骤？过程？</strong></em></p>
+<hr>]]></description>
+</item>
+</channel>
+</rss>
